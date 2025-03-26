@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@layer components{
+    .txtbox
+    {
+        @apply w-full bg-white h-8 rounded-sm  outline-1  outline-gray-500 focus:outline-2 
+         focus:outline-emerald-500
+    }
+}
